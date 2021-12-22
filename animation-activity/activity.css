@@ -28,16 +28,28 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+   0%{
+   }
+
+   100%{
+    transform: translateX(35px) rotate(45deg) translateY(45px);
+   }
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  0%{
+    visibility: visible;
+   }
+   100%{
+     visibility: hidden; 
+   }
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  0%{
+
+  }
+  100%{
+    transform: translateX(35px) rotate(-45deg) translateY(-50px);
+  }
 }
